@@ -1,6 +1,7 @@
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
+    <meta charset="utf-8">
 <body>
     <h1> 조진호 </h1>
     <h1> 머야 왜 안되는거야 </h1>

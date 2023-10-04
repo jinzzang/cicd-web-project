@@ -1,12 +1,17 @@
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
+    <meta charset="utf-8">
 <body>
-    <h1>아이디가 왜 JIN HO CHO 냐 뭐냐 문제냐</h1>
+    <h1> 조진호 </h1>
+    <h1> 머야 왜 안되는거야 </h1>
+    <h2> 타겟을 바꿨네 ㅄ 같이</h2>
+    <hr>
     <h2>It's working on Tomcat server(9.0.65)</h2>
     <hr>
     <h1>${msg}</h1>
-    <h1>Have a nice day.</h1>
+    <h1>Hi, there (updated by dowon)</h1>
     <h2>Today is <fmt:formatDate value="${today}" pattern="yyyy-MM-dd" /></h2>
+    <h3>Version: 3.1</h3>
 </body>
 </html>

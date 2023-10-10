@@ -14,7 +14,7 @@ public class WelcomeController {
     private final Logger logger = LoggerFactory.getLogger(WelcomeController.class);
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Modeㅇl model) {
         logger.debug("Welcome to njonecompany.com...");
         // System.out.println("소나큐브");
         model.addAttribute("msg", getMessage());

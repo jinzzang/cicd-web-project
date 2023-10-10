@@ -35,6 +35,19 @@ pipeline {
           }
           
       }
+
+      stage('shell script') {
+          steps {
+              sh '''msdown_server1
+msboot_server1
+msdown_server2
+msboot_server2
+'''
+              
+          }
+          
+      }
+
       
   }
 }

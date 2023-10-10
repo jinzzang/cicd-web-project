@@ -6,7 +6,7 @@
         <body>
             <h1> 조진호 </h1>
             <h2> Github trigger</h2>
-            <h2> Jeus가 되려나?</h2>
+            <h2> Jeus가 되려나? 1:35:30</h2>
             <h1>${msg}</h1>
             <h1>Hi, there (updated by dowon)</h1>
             <h2>Today is

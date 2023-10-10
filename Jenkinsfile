@@ -28,12 +28,8 @@ pipeline {
           }
           
       }
-     sshPublisher(publishers: [sshPublisherDesc(configName: 'jeus', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '''sh \'\'\'msdown_server1
-msboot_server1
-msdown_server2
-msboot_server2
-\'\'\'''', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/project', remoteDirectorySDF: false, removePrefix: 'target/', sourceFiles: 'target/*.war')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
-
+     sshPublisher(publishers: [sshPublisherDesc(configName: 'jeus', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '''clean compile package;
+./bin/msdown_server1''', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/project', remoteDirectorySDF: false, removePrefix: 'target/', sourceFiles: 'target/*.war')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
       
   }
 }

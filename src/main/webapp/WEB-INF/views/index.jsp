@@ -5,12 +5,7 @@
 
         <body>
             <h1> 조진호 </h1>
-            <h1> 머야 왜 안되는거야 </h1>
-            <h2> ansible 되나요?</h2>
-            <h2> ansible 되나요? 10/04</h2>
-            <hr>
-            <h2>It's working on Tomcat server(9.0.65)</h2>
-            <hr>
+            <h2> Github trigger</h2>
             <h1>${msg}</h1>
             <h1>Hi, there (updated by dowon)</h1>
             <h2>Today is
